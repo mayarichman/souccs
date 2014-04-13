@@ -1,4 +1,4 @@
-souccs
-======
+fresh-start
+===========
 
-A template for SOUCCS project
+Extremely barebones starting point for responsive sites built on Jekyll.

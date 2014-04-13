@@ -64,7 +64,7 @@ h6 {
   }
 
 h1 {
-  font-size:32px;
+  font-size:45px;
   margin-bottom:20px;
   line-height:1em;
   }
@@ -94,14 +94,14 @@ p {
 
 /* Links */
 a {
-  color:#77c453;
+  color:#DDC12E;
   text-decoration:none;
   }
   a:visited {
-    color:#9ed485;
+    color:#DDD685;
     }
   a:hover {
-    color:#54af29;
+    color:#DBC625;
     }
   a:active {
     color:#9ed485;

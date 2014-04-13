@@ -3,15 +3,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <title>SOUCCS {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <!-- <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' /> -->
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
 </head>
 <body>
   <div class='container'>
-    {{content}}
+	  <div class='col12 pad4 margin5'>
+		  <h1><a href='{{site.baseurl}}/'>SOUCCS</a></h1>
+	  </div>
+	  <div class='col12 pad4 center'>
+		  <ul>
+			  <li class='col4'><a href='{{site.baseurl}}/about'>ABOUT</a></li>
+			  <li class='col4'><a href='{{site.baseurl}}/how-to'>HOW-TO'S</a></li>
+			  <li class='col4'><a href='{{site.baseurl}}/media'>MEDIA</a></li>
+		  </ul>
+	  </div>
+	  <div class='pad4'>
+			  {{content}}
+	</div>
   </div>
   <script src='{{site.baseurl}}/site.js'></script>
 </body>
