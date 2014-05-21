@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Book Antigua';
+  src: url('ufonts.com_book_antiqua.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /*  Reset ♥
     http://meyerweb.com/eric/tools/css/reset/
     v2.0 | 20110126
@@ -89,9 +95,11 @@ h4, h5 {
 
 p {
   margin:0 0 20px;
+  font-family: 'Book Antigua';
+  font-size: 16px;
   }
-  p:last-child { margin-bottom:0;}
-
+  p:last-child { margin-bottom:0; }
+  
 /* Links */
 a {
   color:#DDC12E;
@@ -101,7 +109,7 @@ a {
     color:#F3EFC2;
     }
   a:hover {
-    color:#E6CD13;
+    color:#F0DB40;
     }
   a:active {
     color:#9ed485;

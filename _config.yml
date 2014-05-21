@@ -1,4 +1,4 @@
 server: true
-baseurl: http://mayarichman.github.io/souccs/
+baseurl:
 permalink: /:title
 markdown: kramdown
