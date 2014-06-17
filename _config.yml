@@ -1,4 +1,4 @@
 server: true
-baseurl: 
+baseurl: /souccs
 permalink: /:title
 markdown: kramdown
