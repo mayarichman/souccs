@@ -121,6 +121,12 @@ a {
     transition: color 3s ease-out;
     }
 }
+.workshop-header{
+  color: red;
+}
+a.workshop-header:hover {
+    color:rgb(228, 79, 79);
+    }
 
 abbr {
   border-bottom:1px dotted #000;
